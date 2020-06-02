@@ -1,3 +1,44 @@
+/* HTML Element Selectors */
+body {
+    text-align: center;
+}
+
 textarea {
     resize: none;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 4% 7%;
+}
+
+/* Navbar selectors */
+.logo {
+    height: 50px;
+    width: 50px;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+/* Title selectors */
+#title .container-fluid {
+    text-align: left;
+}
+
+/* Features Selectors */
+.feature-desc {
+
+}
+
+/* Team Section Selectors */
+.team-pic {
+
 }
