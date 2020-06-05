@@ -9,7 +9,7 @@ textarea {
 
 /* Containers */
 .container-fluid {
-    padding: 2rem 4rem;
+    padding: 2rem 12%;
 }
 
 /* Navbar selectors */
@@ -48,15 +48,40 @@ textarea {
     padding: 0;
 }
 
+#title .btn-contact {
+    font-size: 1.2rem;
+    margin: 0 0 0 3rem;
+}
+
 .title-heading {
     color: white;
+    font-size: 3rem;
     font-weight: bold;
-    padding: 5rem 30rem 0 3rem;
+    margin: 3rem 30rem 1.5rem 3rem;
 }
 
 /* Features Selectors */
-.feature-desc {
 
+.feature-desc {
+    margin: 5rem 0;
+}
+
+.feature-text {
+    text-align: left;
+    margin: 6rem 0 0 0;
+    line-height: 2;
+}
+
+.feature-glasses {
+    height: 100%;
+    margin: 6rem 0 1rem 0;
+    max-width: 100%;
+}
+
+.feature-ai {
+    height: 50%;
+    width: 50%;
+    margin: 2rem 0;
 }
 
 /* Team Section Selectors */
