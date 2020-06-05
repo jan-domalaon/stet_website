@@ -61,7 +61,6 @@ textarea {
 }
 
 /* Features Selectors */
-
 .feature-desc {
     margin: 5rem 0;
 }
@@ -84,7 +83,27 @@ textarea {
     margin: 2rem 0;
 }
 
+/* Audience selectors */
+#audience {
+    margin: 2rem 0;
+}
+
 /* Team Section Selectors */
+#team {
+    margin: 2rem 0;
+}
+
 .team-pic {
 
+}
+
+/* Contact Section Selectors */
+#contact {
+    margin: 2rem 0;
+}
+
+/* Footer Selectors */
+#footer {
+    background-color: #173C78;
+    color: white;
 }
