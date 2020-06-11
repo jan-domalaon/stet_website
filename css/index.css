@@ -6,6 +6,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: "Crimson Text", serif;
+    margin-bottom: 1.5rem;
 }
 
 textarea {
@@ -49,6 +50,10 @@ textarea {
 .brown-section {
     background-color: #42240c;
     color: white;
+}
+
+.box-shadow {
+   box-shadow:         inset 0 0 20px #000000;
 }
 
 /* Navbar selectors */
@@ -101,32 +106,38 @@ textarea {
 }
 
 /* Features Selectors */
-.feature-desc {
-    margin: 5rem 0;
-}
-
 .feature-text {
     text-align: left;
+    line-height: 2;
+}
+
+.feature-text-right {
     margin: 6rem 0 0 0;
+    text-align: right;
     line-height: 2;
 }
 
 .feature-glasses {
     height: 100%;
-    margin: 6rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     max-width: 100%;
 }
 
 .feature-ai {
     height: 50%;
     width: 50%;
-    margin: 2rem 0;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+}
+
+.attribution {
+    font-size: 0.7rem;
 }
 
 /* Audience selectors */
 
 .carousel-item {
-    height: 320px;
+    height: 350px;
     overflow: hidden;
     width: 100%;
 }
