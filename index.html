@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stet - edit with style.</title>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -13,6 +15,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Roboto&display=swap" rel="stylesheet"> 
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css">
@@ -57,7 +62,7 @@
 
     </section>
 
-    <section id="features">
+    <section id="features" class="white-section">
         <div class="container-fluid">
             <div class="feature-desc row align-items-center">
                 <div class="col feature-text">
@@ -87,23 +92,23 @@
         
     </section>
 
-    <section id="audience">
+    <section id="audience" class="darker-red-section">
         <div class="container-fluid">
             <h2>stet is Made for Writers, By Writers</h2>
             <div class="btn-group btn-group-toggle" data-toggle="buttons" aria-label="Audience button group">
-                <label class="btn btn-outline-primary active">
-                    <input type="radio" name="options" id="options-student" autocomplete="off" checked>Students
+                <label id="options-student" class="btn btn-outline-light audience-btn active">
+                    <input type="radio" name="options" autocomplete="off" checked>Students
                 </label>
-                <label class="btn btn-outline-primary">
+                <label id="options-journalist" class="btn btn-outline-light audience-btn">
                     <input type="radio" name="options" id="options-journalists" autocomplete="off">Journalists
                 </label>
-                <label class="btn btn-outline-primary">
+                <label id="options-editor" class="btn btn-outline-light audience-btn">
                     <input type="radio" name="options" id="options-editors" autocomplete="off">Editors
                 </label>
             </div>
 
             <!-- Audience Carousel -->
-            <div id="carouselAudience" class="carousel slide" data-ride="false">
+            <div id="carousel-audience" class="carousel slide" data-ride="false" data-interval="false">
                 <div class="carousel-inner">
                     <!-- Education Audience -->
                     <div class="carousel-item active container-fluid">
@@ -169,7 +174,7 @@
         </div>
     </section>
 
-    <section id="team">
+    <section id="team" class="white-section">
         <div class="container-fluid">
             <h2>The Team</h2>
             <div class="row">
@@ -229,7 +234,8 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="darker-red-section">
+
         <div class="container-fluid">
             <h2>Contact Us</h2>
             <h4>For further inquiries and/or a demo request, feel free to contact us</h4>
@@ -252,14 +258,15 @@
         
     </section>
 
-    <footer id="footer">
+    <footer id="footer" class="brown-section">
         <div class="container-fluid">
             <p>
-                Copyright © 2020 <br>
-                Website by Jan Domalaon
+                <em>stet team</em>, 2020.
             </p>
         </div>
         
     </footer>
+
+    <script src="index.js" charset="utf-8"></script>
 </body>
 </html>

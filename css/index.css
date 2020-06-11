@@ -1,6 +1,11 @@
 /* HTML Element Selectors */
 body {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Crimson Text", serif;
 }
 
 textarea {
@@ -9,7 +14,41 @@ textarea {
 
 /* Containers */
 .container-fluid {
-    padding: 2rem 12%;
+    padding: 8% 12%;
+}
+
+.blue-section {
+    background-color: #173C78;
+    color: white;
+}
+
+.bright-red-section {
+    background-color: #FA230F;
+    color: white;
+}
+
+.darker-red-section {
+    background-color: #bc2525;
+    color: white;
+}
+
+.brown-red-section {
+    background-color: #C9501E;
+    color:white;
+}
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+
+.light-grey-section {
+    background-color: #D6D6D6;
+}
+
+.brown-section {
+    background-color: #42240c;
+    color: white;
 }
 
 /* Navbar selectors */
@@ -25,6 +64,7 @@ textarea {
 }
 .nav-link {
     color:red;
+    font-family: "Crimson Text", serif;
     font-weight: normal;
     font-size: 1.2rem;
 }
@@ -84,26 +124,21 @@ textarea {
 }
 
 /* Audience selectors */
-#audience {
-    margin: 2rem 0;
+
+.carousel-item {
+    height: 320px;
+    overflow: hidden;
+    width: 100%;
 }
 
 /* Team Section Selectors */
-#team {
-    margin: 2rem 0;
-}
-
 .team-pic {
 
 }
 
 /* Contact Section Selectors */
-#contact {
-    margin: 2rem 0;
-}
 
 /* Footer Selectors */
 #footer {
-    background-color: #173C78;
-    color: white;
+    font-family: "Crimson Text", serif;
 }
