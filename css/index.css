@@ -13,6 +13,10 @@ textarea {
     resize: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Containers */
 .container-fluid {
     padding: 8% 12%;
@@ -67,6 +71,7 @@ textarea {
 .nav-item {
     padding: 0 20px;
 }
+
 .nav-link {
     color:red;
     font-family: "Crimson Text", serif;
@@ -152,4 +157,38 @@ textarea {
 /* Footer Selectors */
 #footer {
     font-family: "Crimson Text", serif;
+}
+
+/* Responsive Breakpoints */
+@media only screen and (max-width:1100px) {
+    .title-heading {
+        font-size: 2.2rem;
+        margin-right: 20rem;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .title-heading {
+        font-size: 2rem;
+        margin-right: 10rem;
+    }
+    
 }

@@ -7,6 +7,6 @@ $('.audience-btn').click(function() {
 $(window).scroll(function(e) {
     var scroll = window.scrollTop();
     if (scroll > 500) {
-        $("#first-feature").slide
+        $("#first-feature").slide();
     }
 });
