@@ -148,8 +148,8 @@ html {
 }
 
 /* Team Section Selectors */
-.team-pic {
-
+.team-member {
+    margin-top: 2rem;
 }
 
 /* Contact Section Selectors */
