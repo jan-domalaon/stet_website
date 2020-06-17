@@ -3,10 +3,21 @@ $('.audience-btn').click(function() {
     $('#carousel-audience').carousel($(this).index());
 });
 
-// Detect scroll to slide in features
-$(window).scroll(function(e) {
-    var scroll = window.scrollTop();
-    if (scroll > 500) {
-        $("#first-feature").slide();
+// Show features smoothly
+function scrollAppear(cssClassName) {
+    var textToAppear = document.querySelector(cssClassName);
+    var textPosition = textToAppear.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight;
+
+    if (textPosition < screenPosition - 200) {
+        textToAppear.classList.add('appear');
     }
+}
+
+window.addEventListener('scroll', function() {
+    scrollAppear(".disappeared-left");
+});
+
+window.addEventListener('scroll', function() {
+    scrollAppear(".disappeared-right");
 });
