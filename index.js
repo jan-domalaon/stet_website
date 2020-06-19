@@ -14,6 +14,20 @@ function scrollAppear(cssClassName) {
     }
 }
 
+// Handle mobile screen HTML ordering
+$(document).ready(function() {
+    if(window.matchMedia("(max-width: 768px)").matches){
+        $(".ai-features .feature-text-right").insertBefore($(".ai-features .ai-image"));
+        handleTeamOrderOnMobileOrTablet();
+    } else if (window.matchMedia("(max-width: 992px)").matches) {
+        handleTeamOrderOnMobileOrTablet();
+    }
+})
+
+function handleTeamOrderOnMobileOrTablet() {
+    $(".row").toggleClass("bottom-team-row");
+}
+
 window.addEventListener('scroll', function() {
     scrollAppear(".disappeared-left");
 });
