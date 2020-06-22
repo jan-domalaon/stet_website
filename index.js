@@ -24,6 +24,15 @@ $(document).ready(function() {
     }
 })
 
+// Handle navbar making background transparent on top of window
+window.addEventListener("scroll", function() {
+    if (window.scrollY == 0) {
+        $("nav").removeClass("navbar-colored");
+    } else {
+        $("nav").addClass("navbar-colored");
+    }
+})
+
 function handleTeamOrderOnMobileOrTablet() {
     $(".row").toggleClass("bottom-team-row");
 }

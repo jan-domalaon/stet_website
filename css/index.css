@@ -17,6 +17,11 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* Fade in classes */
 .disappeared {
     opacity: 0;
@@ -85,21 +90,27 @@ html {
     width: 50px;
 }
 .navbar {
-    padding: 3rem;
+    background-color: rgba(9, 8, 6, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 1s;
 }
+
 .nav-item {
     padding: 0 20px;
 }
 
 .nav-link {
-    color:red;
+    color:white;
     font-family: "Crimson Text", serif;
     font-weight: normal;
     font-size: 1.2rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color:white;
+.navbar-colored {
+    background-color: rgba(9, 8, 6, 0.7);
 }
 
 /* Title selectors */
@@ -110,6 +121,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 40vh;
 }
 
 #title .container-fluid {
@@ -126,7 +138,7 @@ html {
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    margin: 20vh 30rem 1.5rem 3rem;
+    margin: 0 30rem 1.5rem 3rem;
 }
 
 /* Features Selectors */
