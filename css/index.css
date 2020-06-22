@@ -142,6 +142,10 @@ html {
     margin: 0 30rem 1.5rem 3rem;
 }
 
+.title-heading-2 {
+    font-size: 2rem;
+}
+
 /* Features Selectors */
 .feature-text {
     text-align: left;
@@ -185,6 +189,10 @@ html {
 }
 
 /* Contact Section Selectors */
+#contact a {
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
 
 /* Footer Selectors */
 #footer {
