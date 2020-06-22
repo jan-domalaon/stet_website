@@ -96,6 +96,7 @@ html {
     width: 100%;
     z-index: 1;
     transition: background-color 1s;
+    transition-timing-function: cubic;
 }
 
 .nav-item {
