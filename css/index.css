@@ -210,6 +210,7 @@ html {
     }
 }
 
+
 @media only screen and (max-width: 768px) {
     body {
         font-size: 0.9rem;
@@ -228,8 +229,11 @@ html {
 
     .title-heading {
         font-size: 2rem;
-        margin-top: 10vh;
         margin-right: 10rem;
+    }
+
+    .title-heading-2 {
+        font-size: 1.5rem;
     }
     
     .feature-text, .feature-text-right {
@@ -243,6 +247,9 @@ html {
 
 @media only screen and (max-width: 576px) {
     .title-heading {
-        margin-top: 10vh;
+        margin-right: 5rem;
+    }
+    .title-heading-2 {
+        font-size: 1rem;
     }
 }
