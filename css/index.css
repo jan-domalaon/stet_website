@@ -46,8 +46,8 @@ html {
     padding: 8% 12%;
 }
 
-.blue-section {
-    background-color: #173C78;
+.navy-section {
+    background-color: rgba(23, 60, 120, 1);
     color: white;
 }
 
@@ -91,6 +91,7 @@ html {
 }
 .navbar {
     background-color: rgba(9, 8, 6, 0);
+    padding: 1.5rem 3rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -111,7 +112,7 @@ html {
 }
 
 .navbar-colored {
-    background-color: rgba(9, 8, 6, 0.7);
+    background-color: rgba(23, 60, 120, 1);
 }
 
 /* Title selectors */
@@ -122,7 +123,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40vh;
+    padding-top: 35vh;
 }
 
 #title .container-fluid {
@@ -139,11 +140,13 @@ html {
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    margin: 0 30rem 1.5rem 3rem;
+    margin: 0 30rem 1rem 3rem;
 }
 
 .title-heading-2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
 }
 
 /* Features Selectors */
@@ -204,6 +207,9 @@ html {
     .title-heading {
         font-size: 2.5rem;
         margin-right: 20rem;
+    }
+    .title-heading-2 {
+        font-size: 1.7rem;
     }
     .carousel-item {
         height: 100%;
