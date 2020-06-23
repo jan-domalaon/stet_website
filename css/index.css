@@ -93,17 +93,17 @@ html {
 
 /* Navbar selectors */
 .logo {
-    width: 100%;
+    width: auto;
     transition: height 0.5s;
     transition-timing-function: cubic;
 }
 
 .logo-big {
-    height: 100px;
+    height: 5rem;
 }
 
 .logo-small {
-    height: 60px;
+    height: 3rem;
 }
 
 .navbar {
