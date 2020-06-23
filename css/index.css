@@ -82,7 +82,13 @@ html {
 }
 
 .box-shadow {
-   box-shadow:         inset 0 0 20px #000000;
+    -webkit-box-shadow: inset 0 0 20px #000000;
+    box-shadow:         inset 0 0 20px #000000;
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.8);
+    box-shadow:         0 3px 10px 0 rgba(0, 0, 0, 0.8);
 }
 
 /* Navbar selectors */
@@ -161,13 +167,16 @@ html {
 }
 
 /* Features Selectors */
+.feature-desc {
+    margin: 5rem 0;
+}
+
 .feature-text {
     text-align: left;
     line-height: 2;
 }
 
 .feature-text-right {
-    margin: 6rem 0 0 0;
     text-align: right;
     line-height: 2;
 }
@@ -185,12 +194,16 @@ html {
     margin-top: 6rem;
 }
 
+.feature-img {
+    height: 50%;
+    width: 50%;
+}
+
 .attribution {
     font-size: 0.7rem;
 }
 
 /* Audience selectors */
-
 .carousel-item {
     height: 350px;
     overflow: hidden;

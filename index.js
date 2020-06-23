@@ -17,7 +17,7 @@ function scrollAppear(cssClassName) {
 // Handle mobile screen HTML ordering
 $(document).ready(function() {
     if(window.matchMedia("(max-width: 768px)").matches){
-        $(".ai-features .feature-text-right").insertBefore($(".ai-features .ai-image"));
+        $(".features-2 .feature-text-right").insertBefore($(".features-2 .feature-img"));
         handleTeamOrderOnMobileOrTablet();
     } else if (window.matchMedia("(max-width: 992px)").matches) {
         handleTeamOrderOnMobileOrTablet();
@@ -27,11 +27,11 @@ $(document).ready(function() {
 // Handle navbar making background transparent on top of window
 window.addEventListener("scroll", function() {
     if (window.scrollY == 0) {
-        $("nav").removeClass("navbar-colored");
+        $("nav").removeClass("navbar-colored bottom-shadow");
         $(".logo").removeClass("logo-small");
         $(".logo").addClass("logo-big");
     } else {
-        $("nav").addClass("navbar-colored");
+        $("nav").addClass("navbar-colored bottom-shadow");
         $(".logo").addClass("logo-small");
         $(".logo").removeClass("logo-big");
     }
