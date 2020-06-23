@@ -226,7 +226,8 @@ html {
     font-family: "Crimson Text", serif;
 }
 
-/* Responsive Breakpoints */
+/* Responsive Breakpoints (based on Bootstrap) */
+/* Large devices, desktops, tablets < 1100px */
 @media only screen and (max-width:1100px) {
     .title-heading {
         font-size: 2.5rem;
@@ -240,7 +241,7 @@ html {
     }
 }
 
-
+/* Small devices such as landscape phones */
 @media only screen and (max-width: 768px) {
     body {
         font-size: 0.9rem;
@@ -255,6 +256,10 @@ html {
 
     h4 {
         font-size: 1.2rem;
+    }
+
+    .logo-big {
+        height: 4rem;
     }
 
     .title-heading {
@@ -275,6 +280,7 @@ html {
     }
 }
 
+/* Portrait phones, small devices */
 @media only screen and (max-width: 576px) {
     .title-heading {
         margin-right: 5rem;
