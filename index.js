@@ -28,8 +28,12 @@ $(document).ready(function() {
 window.addEventListener("scroll", function() {
     if (window.scrollY == 0) {
         $("nav").removeClass("navbar-colored");
+        $(".logo").removeClass("logo-small");
+        $(".logo").addClass("logo-big");
     } else {
         $("nav").addClass("navbar-colored");
+        $(".logo").addClass("logo-small");
+        $(".logo").removeClass("logo-big");
     }
 })
 

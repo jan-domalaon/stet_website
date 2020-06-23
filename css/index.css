@@ -87,9 +87,19 @@ html {
 
 /* Navbar selectors */
 .logo {
-    height: 50px;
-    width: 50px;
+    width: 100%;
+    transition: height 0.5s;
+    transition-timing-function: cubic;
 }
+
+.logo-big {
+    height: 100px;
+}
+
+.logo-small {
+    height: 60px;
+}
+
 .navbar {
     background-color: rgba(9, 8, 6, 0);
     padding: 1.5rem 3rem;
