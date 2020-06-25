@@ -123,7 +123,7 @@ html {
 
 .nav-link {
     color:white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Crimson Text", serif;
     font-weight: normal;
     font-size: 1.2rem;
 }
@@ -277,6 +277,10 @@ html {
 
     .feature-glasses {
         margin-top: 5rem;
+    }
+
+    .team-member {
+        margin: 0.25rem 0;
     }
 }
 
