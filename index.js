@@ -16,7 +16,7 @@ function scrollAppear(cssClassName) {
 
 // Handle mobile screen HTML ordering
 $(document).ready(function() {
-    if(window.matchMedia("(max-width: 768px)").matches){
+    if(window.matchMedia("(max-width: 767px)").matches){
         $(".features-2 .feature-text-right").insertBefore($(".features-2 .feature-img"));
         handleTeamOrderOnMobileOrTablet();
     } else if (window.matchMedia("(max-width: 992px)").matches) {
