@@ -214,6 +214,13 @@ html {
     width: 100%;
 }
 
+#audience iframe {
+    margin-top: 5rem;
+    height: 30rem;
+    width: 80%;
+}
+
+
 /* Team Section Selectors */
 .bottom-team-row {
     margin-top: 2rem;
@@ -241,7 +248,7 @@ html {
         font-size: 1.7rem;
     }
     .carousel-item {
-        height: 100%;
+        height: auto;
     }
     .feature-text {
         text-align: left;
@@ -252,6 +259,9 @@ html {
     .feature-img {
         height: 18rem;
         width: 18rem;
+    }
+    #audience iframe {
+        margin-top: 4rem;
     }
 
 }
@@ -300,6 +310,11 @@ html {
         width: 15rem;
     }
 
+    #audience iframe {
+        margin: 4rem 0;
+        height: 15rem;
+    }
+
     .team-member {
         margin: 0.25rem 0;
     }
@@ -310,6 +325,7 @@ html {
     .title-heading {
         margin-right: 5rem;
     }
+
     .title-heading-2 {
         font-size: 1rem;
     }
@@ -318,5 +334,10 @@ html {
         height: 10rem;
         margin: 1rem 0;
         width: 10rem;
+    }
+
+    #audience iframe {
+        margin: 3rem 0;
+        height: 10rem;
     }
 }
