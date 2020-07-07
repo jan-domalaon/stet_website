@@ -124,7 +124,7 @@ html {
 .navbar .navbar-nav .nav-item .nav-link {
     color:rgba(255, 255, 255, 0.7);
     font-family: "Crimson Text", serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.2rem;
 }
 
